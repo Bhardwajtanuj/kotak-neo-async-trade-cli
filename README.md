@@ -1,8 +1,8 @@
-# Anti-Gravity Kotak Neo CLI 🚀
+#  Kotak Neo CLI 🚀
 
 A professional, non-blocking, event-driven trading CLI for Kotak Neo, built with Python `asyncio`.
 
-## Core Philosophy: "Anti-Gravity"
+## Core Philosophy: 
 **"The CLI never gets pulled down."**
 Most trading scripts block the main thread while waiting for API responses or user input. This project uses a pure **Event Loop architecture** where:
 1.  **LTP Streaming** runs as an independent background task.
@@ -66,3 +66,4 @@ The system implements strict pre-trade validation:
 ## 🔮 Future Roadmap (Production)
 *   **WebSockets**: Replace polling `LTP` and `Order Status` with pure WebSocket streaming for sub-millisecond latency.
 *   **Database**: Persist `Trade` objects to SQLite/Postgres instead of in-memory.
+
